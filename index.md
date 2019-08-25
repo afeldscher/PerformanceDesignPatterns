@@ -1,8 +1,9 @@
 ## Independent Study I699 Summer 2019
-Adam Feldscher  
-Advisor: Jeff Salvage
+#### Adam Feldscher  
+#### Advisor: Jeff Salvage
 
 ### Motivation
+There is a notation in the software industry that clean, textbook design patterns do not yield high performance software. At the start of this research, I intended to show that design patterns can be applied in performance critical scenarios by comparing the performance different design methodologies in comparable scenarios.
 
 ### Slides
 
