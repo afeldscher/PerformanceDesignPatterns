@@ -3,8 +3,23 @@
 #### Advisor: Jeff Salvage
 
 ### Motivation
-There is a notation in the software industry that clean, textbook design patterns do not yield high performance software. At the start of this research, I intended to show that design patterns can be applied in performance critical scenarios by comparing the performance different design methodologies under control conditions.
+There is a notation in the software industry that clean, textbook design patterns do not yield high performance software. At the start of this research, I intended to show that design patterns can be applied in performance critical scenarios by comparing the performance of different design methodologies under controlled conditions.
 
+### Methodology
+
+The first step of this independent study was to do background research. This began with searches for published peer reviewed papers on the subject of performance and design patterns. 
+
+Unfortunately, this searching didn't lead to the plethora of publications I was hoping for. The results were more loosely related: papers about design patterns, performance anti-patterns, and methods for detecting performance problems. However, these papers still proved to be rather insightful. The first presentation below summarizes the findings from these readings. 
+
+In addition to reading papers, I also read sections of the book *Optimizing Java* by Benjamin J. Evans, Chris Newland, and James Gough. This book outlines some of the most common causes of performance issues in Java applications. These included JIT optimizations and common misconceptions about the JVM that can degrade performance. The second presentation below summarizes the findings from this book. 
+
+### Findings
+
+Overall, this research showed that there is no silver bullet for performance. It is very hard to quantify one design pattern as more performant than another. These types of decisions are very situational and depend on the specific implementation. That being said, there are plenty of recommendations that can be made for which patterns are best to use in scenarios.  All of the findings from this study are outlined in detail in the presentations below. 
+
+### Future Studies
+
+After completing one quarter of independent study exploring performance driven software design, I plan to continue to investigate compiler and runtime optimizations. The first quarter of this study primarily focused on published papers which uncovered a lack of consensus in the research community. This quarter will focus more on textbooks covering performance optimizations and design patterns. 
 
 
 ### Presentations
