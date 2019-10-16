@@ -44,7 +44,7 @@ public class Main {
                 if (is_prime) {
                     num_primes_found++;
                 }
-            }
+            } 
             Long end_time = System.nanoTime();
             System.out.println(iter + ", " + (end_time - start_time) + ", " + (end_time - start_time) / 1e9 + ", " + num_primes_found);
 
