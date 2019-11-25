@@ -1,4 +1,30 @@
-## Independent Study I699 Summer 2019
+## Independent Study I699 Performance Design Patterns II Fall 2019
+#### Adam Feldscher  
+#### Advisor: Jeff Salvage
+
+### Motivation
+After completing one quarter of independent study exploring performance driven software design, we aimed to continue investigations into compiler and runtime optimizations. The first quarter of this course primarily focused on published papers which uncovered a lack of consensus in the research community. This quarter focused more on textbooks covering performance optimizations and design patterns. 
+
+### Methodology
+
+
+### Findings
+
+### Presentations
+
+### Sources
+1. Evans, B. J., Gough, J., & Newland, C. (2018). Optimizing Java: practical techniques for improving Jvm application performance. Beijing: OReilly.
+
+1. Mott, J. (2016, July 22). Retrieved from https://jackmott.github.io/programming/2016/07/22/making-obvious-fast.html.
+
+1. Rompf, T., Sujeeth, A. K., Brown, K. J., Lee, H., Chafi, H., & Olukotun, K. (2014). Surgical precision JIT compilers. ACM SIGPLAN Notices, 49(6), 41–52. doi: 10.1145/2666356.2594316
+
+1. Steingarten, N. (2019, September 11). JVM Performance Magic Tricks. Retrieved from https://blog.overops.com/jvm-performance-magic-tricks/.
+
+1. Yoshikawa, T., Shimura, K., & Ozawa, T. (2003). Random Program Generator For Java JIT Compiler Test System. Third International Conference On Quality Software, 2003. Proceedings. Doi: 10.1109/Qsic.2003.1319081
+
+
+## Independent Study I699 Performance Design Patterns I Summer 2019
 #### Adam Feldscher  
 #### Advisor: Jeff Salvage
 
@@ -19,7 +45,7 @@ Overall, this research showed that there is no silver bullet for performance. It
 
 ### Future Studies
 
-After completing one quarter of independent study exploring performance driven software design, I plan to continue to investigate compiler and runtime optimizations. The first quarter of this study primarily focused on published papers which uncovered a lack of consensus in the research community. This quarter will focus more on textbooks covering performance optimizations and design patterns. 
+After completing one quarter of independent study exploring performance driven software design, I plan to continue to investigate compiler and runtime optimizations. The first quarter of this study primarily focused on published papers which uncovered a lack of consensus in the research community. Future research should focus more on textbooks covering performance optimizations and design patterns. 
 
 
 ### Presentations
