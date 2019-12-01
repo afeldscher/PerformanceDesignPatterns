@@ -1,4 +1,4 @@
-# Independent Study I699 Performance Design Patterns 
+# Independent Study I699
 ## Term 1 - Summer 2019
 #### Adam Feldscher  
 #### Advisor: Jeff Salvage
