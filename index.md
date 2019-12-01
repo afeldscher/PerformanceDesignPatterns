@@ -68,12 +68,24 @@ After completing one quarter of independent study exploring performance driven s
 #### Advisor: Jeff Salvage
 
 ### Motivation
-After completing one quarter of independent study exploring performance driven software design, we aimed to continue investigations into compiler and runtime optimizations. The first quarter of this course primarily focused on published papers which uncovered a lack of consensus in the research community. This quarter focused more on textbooks covering performance optimizations and design patterns. 
+After completing one quarter of independent study exploring performance driven software design, we aimed to continue investigations into compiler and runtime optimizations. The first quarter of this course primarily focused on published papers which uncovered a lack of consensus in the research community. This quarter focused more on textbooks covering performance optimizations and empirical testing. 
 
 ### Methodology
+The initial approach for this term was to read a few chapters of *Optimizing Java*. This book provided a very practical approach towards optimizing code compared to the papers read last term which were very theoretical. 
 
+Once that was complete, I began to explore test implementations that could exhibit the JIT Optimizations I had been reading about. This lead to the Prime Number Finding code, which is outlined in the presentations below. Prime number finding was selected as the sample problem because it is a relatively trivial implementation that yields a CPU bound known hard problem.
+
+Now that I had tested JIT Optimizations and seen how code changes affected JIT, I was curious to see how JIT had changed over time. I reran the last iteration of the Prime Test code against 3 different versions of Java to compare their performance. 
+
+Interspersed within all of this were a few more papers and online sources. Especially since this term was focused more on  practical performance optimizations, there were a lot more resources available on the subject. 
 
 ### Findings
+
+Overall, I learned just how finicky performance optimizations can be. One of the largest factors is how the code you write gets turned into machine instructions. This requires a lot of in-depth knowledge about the language you are using and its compiler.
+
+In terms of Java, I learned how impressive the JIT compiler can be. With relatively low effort, code I wrote using several object allocations and method calls ran almost as fast as code I wrote in C. There are of course huge start up costs, but once the JIT compilation occurs, things stabilize pretty quickly. 
+
+The findings of this term are outlined in detail in the presentations below. 
 
 ### Presentations
 
