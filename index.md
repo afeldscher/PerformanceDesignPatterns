@@ -77,6 +77,44 @@ After completing one quarter of independent study exploring performance driven s
 
 ### Presentations
 
+#### Optimizing Java - O'Riley 
+This presentation continues the reading from the first term about Java Optimizations. 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/K0rMui0zApv6xn" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AdamFeldscher/optimizing-java-notes" title="Optimizing Java Notes" target="_blank">Optimizing Java Notes</a> </strong> from <strong><a href="https://www.slideshare.net/AdamFeldscher" target="_blank">Adam Feldscher</a></strong> </div>
+
+
+#### C vs Java: Finding Prime Numbers 
+This presentation outlines tests designed to compare C and Java performance when finding prime numbers. It outlines the testing methodology and results. 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/tCGB21vAMUrl86" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AdamFeldscher/c-vs-java-finding-prime-numbers" title="C vs Java: Finding Prime Numbers" target="_blank">C vs Java: Finding Prime Numbers</a> </strong> from <strong><a href="https://www.slideshare.net/AdamFeldscher" target="_blank">Adam Feldscher</a></strong> </div>
+
+
+#### C++ & Java Optimizations: Finding Prime Numbers 
+This presentation outlines tests designed to compare C++ and Java performance as application design is varied. Prime number finding is used as the example problem. It outlines the testing methodology and results. 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/BVrTF8SSoPanaN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AdamFeldscher/c-java-jit-optimizations-finding-prime-numbers" title="C++ &amp; Java JIT Optimizations: Finding Prime Numbers" target="_blank">C++ &amp; Java JIT Optimizations: Finding Prime Numbers</a> </strong> from <strong><a href="https://www.slideshare.net/AdamFeldscher" target="_blank">Adam Feldscher</a></strong> </div>
+
+
+#### Java JIT Performance Testing and Results
+This presentation outlines papers on how to test a JIT compiler and test results that compare Java 5, 7, and 11. The tests are conducted using the OverOps random code generator, which randomly throws exceptions. The results showed that Java 5 was actually the fastest, followed by 7. This result can be explained by the fact that this was exception handling code. Newer features in the language surrounding exception cases to help improve debugging could be slowing down the execution.
+
+Additionally, tests were conducted to compare the Prime Number code across the different JVMs. This showed that Java 7 was the fastest, followed by 11. In Investigations with JITWatch showed that Java 7 compiled the code to C2, while Java 11 only compiled it to C1, explaining the difference. 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/qnV6g0eTpUnqvo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AdamFeldscher/java-jit-performance-testing-and-results" title="Java JIT Performance Testing and Results" target="_blank">Java JIT Performance Testing and Results</a> </strong> from <strong><a href="https://www.slideshare.net/AdamFeldscher" target="_blank">Adam Feldscher</a></strong> </div>
+
+
+#### Java JIT Optimization Research
+Overview of 2 papers on Java Optimizations and performance comparisons across languages. 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/tcpPcxWB4pwcKl" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AdamFeldscher/java-jit-optimization-research" title="Java JIT Optimization Research " target="_blank">Java JIT Optimization Research </a> </strong> from <strong><a href="https://www.slideshare.net/AdamFeldscher" target="_blank">Adam Feldscher</a></strong> </div>
+
+
+#### Java JIT Improvements Research
+Overview of a paper on potential improvements to JIT compilers. 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/CdU56Q2JomIHBQ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AdamFeldscher/java-jit-improvements-research" title="Java JIT Improvements Research" target="_blank">Java JIT Improvements Research</a> </strong> from <strong><a href="https://www.slideshare.net/AdamFeldscher" target="_blank">Adam Feldscher</a></strong> </div>
+
+
 ### Sources
 1. Evans, B. J., Gough, J., & Newland, C. (2018). Optimizing Java: practical techniques for improving Jvm application performance. Beijing: OReilly.
 
