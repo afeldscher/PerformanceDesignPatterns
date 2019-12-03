@@ -73,7 +73,7 @@ After completing one quarter of independent study exploring performance driven s
 ### Methodology
 The initial approach for this term was to read a few chapters of *Optimizing Java*. This book provided a very practical approach for optimizing code compared to the papers read last term which were very theoretical. 
 
-Once that was complete, I began to explore test implementations that could exhibit the JIT Optimizations I had been reading about. This lead to the prime number finding code, which is outlined in the presentations below. Prime number finding was selected as the sample problem because it requires a relatively trivial implementation that yields a CPU bound known complex problem.
+Once that was complete, I began to explore test implementations that could exhibit the JIT Optimizations I had been reading about. After some thought, I implemented a simple algorithm to find prime numbers up to a specified limit. This is outlined in the presentations below. Prime number finding was perfect starting point because it is a relatively trivial implementation that is fully CPU bound. This allowed me to easily scale the length of the test and have easily reproduceable results. 
 
 Now that I had tested JIT Optimizations and seen how code changes affected JIT, I was curious to see how JIT had changed over time. I reran the last iteration of the Prime Test code against 3 different versions of Java to compare their performance. 
 
